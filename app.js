@@ -247,7 +247,10 @@ Paris.render();
 
 let Lima = {
     name: 'Lima',
+
     maxCustomer: 2,
+
+   maxCustomer: 2,
     minCustomer: 16,
     averCoockies: 4.6,
     customersEachHour: [],
@@ -272,7 +275,7 @@ let Lima = {
         let parent = document.getElementById('parent');
         console.log(parent);
 
-        let h2elememnt = document.createElement('h2');
+    let h2elememnt = document.createElement('h2');
         console.log(h2elememnt);
         parent.appendChild(h2elememnt);
         h2elememnt.textContent = this.name;
